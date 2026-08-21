@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd *)",
+      "Read(//d/tmp/**)",
+      "Bash(unzip -l \"/c/Users/wohenb/.gradle/caches/forge_gradle/minecraft_repo/versions/1.20.1/client.jar\")",
+      "Bash(javap -cp \"/c/Users/wohenb/.gradle/caches/forge_gradle/minecraft_repo/versions/1.20.1/client.jar\" net.minecraft.world.entity.animal.Cat)",
+      "Bash(./gradlew compileJava --console=plain -q)"
+    ]
+  }
+}
